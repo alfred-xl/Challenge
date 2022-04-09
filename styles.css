@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/*---------- header-------- */
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+.nav-int span {
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-left: -100px;
+}
+.nav-links li a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 0 20px;
+}
+.nav-lang img {
+  padding-right: 5px;
+  vertical-align: middle;
+}
+.nav-lang {
+  display: inline-block;
+  line-height: 20px;
+}
+
+.sign-btn {
+  background-color: #3aa64c;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dwn {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.nav-icons {
+    display: inline-flex;
+    line-height: 20px;
+  margin-left: -160px; 
+}
+.nav-icons ion-icon {
+  color: #eaac0c;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.toggle-btn{
+    position: relative;
+    background: #EDF5FF;
+    border: 1px solid #B7D7FF;
+    border-radius: 10px;
+    width: 45px;
+    height: 25px;
+}
+.toggle-btn::after{
+    position: absolute;
+    content: "";
+    background: #EAAC0C;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height:20px ;
+
+}
+.nav-icons .fa-moon {
+  color: #173963;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+/*---------- header-------- */
+
+/*------- currencies update bar ---------*/
+.currency {
+  background: #002149;
+  color: #fff;
+}
+.currency ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 50px;
+}
+.currency ul li {
+  padding: 10px 5px;
+  font-size: 17px;
+}
+.curr-li {
+  display: inline-block;
+  line-height: 20px;
+}
+.curr-li .ar-icon {
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.down {
+  color: rgb(233, 34, 34);
+}
+.up {
+  color: rgb(7, 167, 7);
+}
+/*------- currencies update bar ---------*/
+
+/*------- Hero section ---------*/
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(img1.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 30px 70px 30px 50px;
+}
+.hero-section h1 {
+  margin-top: -130px;
+  color: #fff;
+  font-size: 45px;
+}
+
+.small-container {
+  background: #fafffb;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+large {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.exchange-box {
+  position: relative;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.exch-sign {
+  position: absolute;
+  top: 75px;
+  left: 140px;
+  background: #eaac0c;
+  padding: 9px;
+  border-radius: 50%;
+}
+.exch-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 13px;
+}
+.qty {
+  color: #b3b3b3;
+}
+.cur-select {
+  display: inline-block;
+  margin-left: 130px;
+  background: #e5f0fa;
+  color: #173963;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+.cur-select i {
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.cur-select img {
+  vertical-align: middle;
+  height: 22px;
+}
+.cur-select span {
+  font-size: 18px;
+}
+
+.exch-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.det {
+  display: inline-block;
+  line-height: 30px;
+  color: #5c5c5c;
+  font-size: 13px;
+}
+.fa-right-left {
+  border: 1px solid#5C5C5C;
+  border-radius: 50%;
+  font-size: 6px;
+  padding: 2px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.det ion-icon {
+  vertical-align: middle;
+  font-size: 14px;
+  padding-right: 5px;
+}
+.exch-detail img {
+  width: 35px;
+  padding-right: 15px;
+}
+.fa-hourglass-end {
+  font-size: 13px;
+  vertical-align: middle;
+  padding-right: 5px;
+  color: rgb(165, 50, 50);
+}
+.num {
+  font-size: 12px;
+}
+
+.btn {
+  background: #3aa64c;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+/*------- Hero section ---------*/
+
+/*------- last section ---------*/
+
+.last-section {
+  background-color: #10315a;
+  padding: 30px 50px;
+  color: #fff;
+}
+.last-section h1 {
+  color: #fff;
+}
+.last-section .small {
+  font-size: 12px;
+}
+.metrics-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.metrics-link{
+    text-decoration: none;
+    color: white;
+}
+.metrics-nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 30px 0;
+}
+.metrics-nav ul li {
+  border: 1px solid #c5cfdc;
+  margin-right: 20px;
+  border-radius: 50px;
+  padding: 9px 18px;
+}
+.metrics-nav ul li:hover {
+  background-color: #eaac0c;
+  color: #fff;
+}
+.metrics-nav ul li a {
+  text-decoration: none;
+  color: #c5cfdc;
+  font-size: 13px;
+}
+.metrics-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.metrics-card {
+  flex-basis: 30%;
+  background: #16294d;
+  padding: 14px;
+  border-radius: 10px;
+}
+.metric-detail {
+  display: flex;
+  flex-direction: column;
+}
+.metric-detail .metric-1 {
+  display: inline-block;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.metric-1 img {
+  vertical-align: middle;
+}
+.metric-fig {
+  font-size: 25px;
+}
+
+.metric-detail .metric-2 {
+  display: inline-block;
+  line-height: 30px;
+}
+.metric-2 ion-icon {
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.metrics-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  color: #c5cfdc;
+}
+.metrics-bottom .metric-3 {
+  display: inline-block;
+  line-height: 20px;
+  color: #eaac0c;
+}
+.metrics-bottom .small {
+  color: #84a8d3;
+}
+.metric-3 .fa-angle-right {
+  vertical-align: middle;
+  font-size: 18px;
+  padding-left: 8px;
+}
+/*------- last section ---------*/
